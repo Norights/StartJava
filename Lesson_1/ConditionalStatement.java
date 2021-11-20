@@ -14,8 +14,8 @@ public class ConditionalStatement {
             System.out.println("You're not a man");
         }
 
-        double yourHeight = 1.57;
-        if(yourHeight < 1.80) {
+        double height = 1.57;
+        if(height < 1.80) {
             System.out.println("Your height is more than 180 centimeters");
         } else {
             System.out.println("Your height is less than 180 centimeters");
@@ -24,8 +24,10 @@ public class ConditionalStatement {
         char firstLetterOfName = 'M';
         if(firstLetterOfName == 'M') {
             System.out.println("Your first letter of name is M");
-        } else { 
-            System.out.println("Your first letter of name is not M");
-        }
+        } else if (firstLetterOfName == 'I') { 
+            System.out.println("Your first letter of name is I");
+        } else 
+            System.out.println("Your first letter of name is not M or I");
     }
-}
+ }
+

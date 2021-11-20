@@ -6,20 +6,20 @@ public class Cycle {
         }
         System.out.println(" ");
 
-        int k = 6;
-        while(k >= -6) { 
-            System.out.println(k);
-            k -= 2;
+        int counter = 6;
+        while(counter >= -6) { 
+            System.out.println(counter);
+            counter -= 2;
         }
 
-        int x = 10;
-        int sum = 0;
+        counter = 10;
+        int sumOdd = 0;
         do {
-            if(x % 2 == 1) {
-                sum += x;
+            if(counter % 2 == 1) {
+                sumOdd += counter;
             }
-            x++;
-        } while(x < 20);
-        System.out.println("The sum of the odd numbers from 10 to 20: " + sum);
+            counter++;
+        } while(counter < 20);
+        System.out.println("The sum of the odd numbers from 10 to 20: " + sumOdd);
     }
 }
