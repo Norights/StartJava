@@ -16,11 +16,10 @@ public class Calculator {
             int result = 1;
             for (int i = 1; i <= b; i++) {
                 result *= a;
-        }
-        System.out.println ("a to the power of b is equal = " + result);
+            }
+            System.out.println ("a to the power of b is equal = " + result);
         } else if (sign == "%") {
             System.out.println(a % b);
         }
-        
     }
 }
