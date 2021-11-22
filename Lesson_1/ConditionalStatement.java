@@ -26,8 +26,7 @@ public class ConditionalStatement {
             System.out.println("Your first letter of name is M");
         } else if (firstLetterOfName == 'I') { 
             System.out.println("Your first letter of name is I");
-        } else 
+        } else
             System.out.println("Your first letter of name is not M or I");
     }
- }
-
+}
