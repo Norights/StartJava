@@ -1,11 +1,10 @@
 public class Wolf {
-   
-    Wolf wolf;
-    public static String gender;
-    public static String name;
-    public static int weight;
-    public static int age;
-    public static String color;
+
+    public String gender;
+    public String name;
+    public int weight;
+    public int age;
+    public String color;
     
     boolean walk() {
         System.out.println("Wolf can walk");
