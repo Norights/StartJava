@@ -26,26 +26,26 @@ public class Wolf {
         return weight;
     }
     
-    public void setWeight(int Weight) {
+    public void setWeight(int weight) {
         this.weight = weight;
     }
     
     public int getAge() {
-        if (age > 8) {
-            System.out.println("Incorrect age");
-        }
         return age;
     }
     
-    public void setAge(int Age) {
-        this.age = age;
-    }
+    public void setAge(int age) {
+        if (age > 8) {
+            System.out.println("Incorrect age");
+        } else {
+            this.age = age;
+        }
     
     public String getColor() {
         return color;
     }
     
-    public void setColor(String Color) {
+    public void setColor(String color) {
         this.color = color;
     }
     
