@@ -16,29 +16,24 @@ public class Calculator {
     }
 
     public int calculate() {
-        int result;
         switch(sign) {
             case '+':
-                result = num1 + num2;
-                break;
+                return num1 + num2;
             case '-':
-                result = num1 - num2;
-                break;
+                return num1 - num2;
             case '*':
-                result = num1 * num2;
-                break;
+                return num1 * num2;
             case '/':
-                result = num1 / num2;
-                break;
+                return num1 / num2;
             case '^':
-                result = 1;
+                int result = 1;
                 for (int i = 1; i <= num2; i++) {
-                    result = result * num1;
+                    result *= num1;
                 }
                 break;
             default:
                 result = 0; 
             }
-        return result;
+        return 0;
     }
 }
